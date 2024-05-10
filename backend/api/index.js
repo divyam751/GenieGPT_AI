@@ -8,12 +8,11 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.status(200).send("Home Route");
+  res.status(200).send("Genie GPT Home Route");
 });
 
 app.post("/genie", async (req, res) => {
   let { prompt } = req.body;
-  // prompt += `, write markdown code file for your response`;
   const genAI = new GoogleGenerativeAI(process.env.API_KEY);
   // For text-only input, use the gemini-pro model
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
