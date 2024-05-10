@@ -1,0 +1,66 @@
+.genie-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #90e0ef;
+  align-items: center;
+  padding-top: 60px;
+  gap: 20px;
+  background-image: url("https://pngimg.com/d/bow_PNG100649.png");
+  background-size: 15%;
+  background-repeat: no-repeat;
+}
+
+.genie-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 90vh;
+}
+.laptop {
+  width: 100%;
+}
+.textArea {
+  margin: 0px 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.genie-screen {
+  width: 70%;
+  height: 430px;
+  margin-top: -620px;
+  padding: 10px;
+  display: flex;
+  font-size: 18px;
+  line-height: 150%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.genie-userPrompt {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.promptInputBox {
+  width: 90%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.mountTextArea {
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.mountScreenStyle {
+  overflow: hidden;
+}
