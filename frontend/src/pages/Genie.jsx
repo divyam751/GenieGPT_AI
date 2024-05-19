@@ -11,6 +11,12 @@ const Genie = () => {
 
   const apiUrl = import.meta.env.VITE_API_URL;
 
+  const handleKeyPress = (event) => {
+    if (event.key === "Enter") {
+      submitPrompt();
+    }
+  };
+
   const submitPrompt = async () => {
     setLoading(true);
     try {
@@ -64,6 +70,7 @@ const Genie = () => {
             value={prompt}
             placeholder="Enter your prompt and let the magic happens"
             onChange={(e) => setPrompt(e.target.value)}
+            onKeyPress={handleKeyPress}
           />
           <button onClick={submitPrompt}>
             <GiMagicLamp size={40} />
