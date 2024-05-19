@@ -68,7 +68,7 @@ const Genie = () => {
             type="text"
             className="promptInputBox"
             value={prompt}
-            placeholder="Enter your prompt and let the magic happens"
+            placeholder="Enter your prompt and let the magic happen."
             onChange={(e) => setPrompt(e.target.value)}
             onKeyPress={handleKeyPress}
           />
