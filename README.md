@@ -1,4 +1,9 @@
-# GenieGPT_AI
+
+#  GenieGPT_AI
+<img src="https://github.com/divyam751/GenieGPT_AI/assets/125983433/1b997d71-c1c5-48c3-9084-c57a71878724" alt="logo" width="200px">
+
+
+
 
 GenieGPT_AI is a tool designed to generate any kind of text content using advanced AI technology. It features a user-friendly interface built with React.js and a robust backend powered by Node.js and Express.js, all integrated with the Google Generative AI API.
 
